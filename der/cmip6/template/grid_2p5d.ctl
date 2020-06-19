@@ -1,0 +1,12 @@
+DSET ^grid_2p5d.dat
+TITLE grid info for regrid
+OPTIONS template 
+UNDEF -99999.
+XDEF 144 LINEAR 0 2.5
+YDEF  72 LINEAR -88.75 2.5
+ZDEF   1 levels  1000
+TDEF 1 LINEAR 00:00Z01JAN0001 1hr
+VARS 1
+grid 1 99 grid
+ENDVARS
+

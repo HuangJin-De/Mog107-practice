@@ -1,0 +1,10 @@
+DSET ^../DATA/model_freq_data.dat
+TITLE thermodynamic variables
+UNDEF -1
+XDEF 144 LINEAR 0 2.5
+YDEF  72 LINEAR -88.75 2.5
+ZDEF   1 LEVELS 1000
+TDEF 1 LINEAR 00:00Z01JAN2000 10mn
+VARS 1
+f    1 99 f
+ENDVARS
